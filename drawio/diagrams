@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T09:49:17.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="DHPa_QPGVUu_9zDBnk-p" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-24T09:51:27.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="q15L7pJVuqmdA0cF9amU" version="14.1.9" type="github" pages="2">
   <diagram id="xAy4ePHjbQuMmPr54bJT" name="kubernetes-architecture">
     <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-1" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-1" value="Worker node&lt;br&gt;Run task" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
           <mxGeometry x="219" y="260" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BTrWPwUmeTiF8VWlnQqv-17" value="Virtual machines pool" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
@@ -100,13 +100,13 @@
         <mxCell id="UcdiF-7ByrUGjYOEPew5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="BTrWPwUmeTiF8VWlnQqv-20" target="BTrWPwUmeTiF8VWlnQqv-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-20" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-20" value="Worker node&lt;br&gt;Run task" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
           <mxGeometry x="350" y="260" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UcdiF-7ByrUGjYOEPew5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="BTrWPwUmeTiF8VWlnQqv-21" target="BTrWPwUmeTiF8VWlnQqv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-21" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-21" value="Worker node&lt;br&gt;Run task" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
           <mxGeometry x="480" y="260" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UcdiF-7ByrUGjYOEPew5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="UcdiF-7ByrUGjYOEPew5-0" target="BTrWPwUmeTiF8VWlnQqv-1">
@@ -121,7 +121,7 @@
         <mxCell id="UcdiF-7ByrUGjYOEPew5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="UcdiF-7ByrUGjYOEPew5-0" target="BTrWPwUmeTiF8VWlnQqv-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcdiF-7ByrUGjYOEPew5-0" value="Control plane" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-0" value="Control plane&lt;br&gt;Run scheduling" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
           <mxGeometry x="690" y="310" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
