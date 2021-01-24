@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T09:45:06.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KrC4fH52K5E9-z98QGUT" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-24T09:48:08.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="1DKrmTeZAM8oZU7cRsrN" version="14.1.9" type="github" pages="2">
   <diagram id="xAy4ePHjbQuMmPr54bJT" name="kubernetes-architecture">
     <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,19 +81,34 @@
         <mxCell id="eefbWsntpbsO3uNU-hVy-0" />
         <mxCell id="eefbWsntpbsO3uNU-hVy-1" parent="eefbWsntpbsO3uNU-hVy-0" />
         <mxCell id="BTrWPwUmeTiF8VWlnQqv-0" value="Cluster (1..*)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
-          <mxGeometry x="170" y="180" width="530" height="260" as="geometry" />
+          <mxGeometry x="170" y="180" width="650" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-1" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-1" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
           <mxGeometry x="219" y="260" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-17" value="Virtual machines" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
-          <mxGeometry x="692" y="430" width="50" height="50" as="geometry" />
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-17" value="Virtual machines pool" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="670" y="450" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-20" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
-          <mxGeometry x="389" y="260" width="110" height="60" as="geometry" />
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="BTrWPwUmeTiF8VWlnQqv-20" target="BTrWPwUmeTiF8VWlnQqv-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTrWPwUmeTiF8VWlnQqv-21" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
-          <mxGeometry x="549" y="260" width="110" height="60" as="geometry" />
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-20" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="350" y="260" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-21" value="Worker node/VM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="480" y="260" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="UcdiF-7ByrUGjYOEPew5-0" target="BTrWPwUmeTiF8VWlnQqv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="UcdiF-7ByrUGjYOEPew5-0" target="BTrWPwUmeTiF8VWlnQqv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eefbWsntpbsO3uNU-hVy-1" source="UcdiF-7ByrUGjYOEPew5-0" target="BTrWPwUmeTiF8VWlnQqv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcdiF-7ByrUGjYOEPew5-0" value="Control plane" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="690" y="310" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
