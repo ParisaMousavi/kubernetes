@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T09:38:38.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ucTqsBcTZnH-t26SdJjb" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T09:45:06.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KrC4fH52K5E9-z98QGUT" version="14.1.9" type="github" pages="2">
   <diagram id="xAy4ePHjbQuMmPr54bJT" name="kubernetes-architecture">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,6 +71,29 @@
         </mxCell>
         <mxCell id="RmyXHKob4Y--YEWjN_gx-32" value="Virtual machines" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" vertex="1" parent="1">
           <mxGeometry x="692" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vtUXJkxkHZ4Z9u4pG4XG" name="Cluster-architecture">
+    <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="eefbWsntpbsO3uNU-hVy-0" />
+        <mxCell id="eefbWsntpbsO3uNU-hVy-1" parent="eefbWsntpbsO3uNU-hVy-0" />
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-0" value="Cluster (1..*)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="170" y="180" width="530" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-1" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="219" y="260" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-17" value="Virtual machines" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Scale_Set.svg;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="692" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-20" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="389" y="260" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BTrWPwUmeTiF8VWlnQqv-21" value="Worker node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="eefbWsntpbsO3uNU-hVy-1">
+          <mxGeometry x="549" y="260" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
