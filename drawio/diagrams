@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T09:34:01.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="EEZ_7Cf3abtcAVY97Awl" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T09:36:35.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="F_WcoeSsgAS1BiRvCZ4K" version="14.1.9" type="github">
   <diagram id="xAy4ePHjbQuMmPr54bJT" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,23 @@
         </mxCell>
         <mxCell id="RmyXHKob4Y--YEWjN_gx-28" value="kube-proxy" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="590" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RmyXHKob4Y--YEWjN_gx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RmyXHKob4Y--YEWjN_gx-29" target="RmyXHKob4Y--YEWjN_gx-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmyXHKob4Y--YEWjN_gx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RmyXHKob4Y--YEWjN_gx-29" target="RmyXHKob4Y--YEWjN_gx-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RmyXHKob4Y--YEWjN_gx-29" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="760" y="180" width="79.37" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
