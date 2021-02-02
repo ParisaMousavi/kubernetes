@@ -7,7 +7,9 @@
 **On-Cloud**: Machine is a VM and it doesn't matter by which cloud provider.
 
 ### This prerequisite
-A small ``hello-world`` application must be containerized and converted to a ``container iamge`` to be able to travel to the Kubernetes World. 
+The small ``hello-world`` application must be containerized and converted to a ``container iamge`` to be able to travel to the Kubernetes World.
+
+![container identification card](drawio\diagrams-id-card.png)
 
 ### Provinces
 In the Kubernetes world we have provinces that are called ``Cluster``. 
@@ -26,4 +28,10 @@ Each city in the kubernetes world has usually three different sections which are
  ![Cities in kubernetes](drawio\diagrams-Page-5.png)
  
 
+### Tour guide
+The ``helloworld container`` can plan the travel by himself by using ``kubectl CLI``.
+
+Or he can plan the travel with a tour guide. There are different tour guides available to plan the whole travel with them e.g. Azure DevOps, ArgoCD, etc.
+
+The tour guides of the kubernetes world are called ``Continuous Deployment (CD) Pipeline``.
 
