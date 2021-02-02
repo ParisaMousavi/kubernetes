@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T21:19:25.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="sp6IPY0OyqYriFUhuyXX" version="14.2.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-02T21:25:23.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="mxc6aBD5_ZvmweJRX-F8" version="14.2.9" type="github" pages="6">
   <diagram id="xAy4ePHjbQuMmPr54bJT" name="kubernetes-architecture">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -266,6 +266,36 @@
       <root>
         <mxCell id="ufLH_oryQrkmWZIu77_P-0" />
         <mxCell id="ufLH_oryQrkmWZIu77_P-1" parent="ufLH_oryQrkmWZIu77_P-0" />
+        <mxCell id="ufLH_oryQrkmWZIu77_P-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;opacity=60;align=right;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="210" y="180" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-3" value="Name:" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="240" y="215" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-4" value="helloword" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="340" y="215" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-5" value="Version:" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="240" y="239" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-6" value="v2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="340" y="239" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-7" value="Environment:" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="240" y="265" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-8" value="qa" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="340" y="265" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-9" value="Container Identification Card" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;fontStyle=1" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="210" y="180" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-11" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.app_generic;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="430" y="215" width="75.64" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ufLH_oryQrkmWZIu77_P-13" value="helloword" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="ufLH_oryQrkmWZIu77_P-1">
+          <mxGeometry x="340" y="215" width="90" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
