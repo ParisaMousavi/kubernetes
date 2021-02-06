@@ -36,7 +36,5 @@ Or he can plan the travel with a tour guide. There are different tour guides ava
 The tour guides of the kubernetes world are called ``Continuous Deployment (CD) Pipeline``.
 
 
-TEST
-
 ### Related links
 - ArgoCD: https://www.youtube.com/watch?t=1m4s&v=aWDIQMbp1cc&feature=youtu.be
