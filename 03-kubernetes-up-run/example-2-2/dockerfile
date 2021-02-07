@@ -24,4 +24,3 @@ RUN build/build.sh
 
 CMD [ "/go/bin/kuard" ]
 
-# docker build -t example-2-2 -f .\example-2-2\dockerfile .\kuard\
