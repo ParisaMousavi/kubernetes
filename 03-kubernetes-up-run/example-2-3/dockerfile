@@ -1,5 +1,5 @@
 # STAGE 1: Build
-FROM golang:1.12-alpine
+FROM golang:1.12-alpine as build
 
 # Install Node and NPM.
 RUN apk update && apk upgrade && apk add --no-cache git nodejs bash npm
@@ -20,7 +20,14 @@ ENV ARCH=amd64
 ENV VERSION=test
 
 # Do the build. Script is part of incoming sources.
-RUN /go/src/github.com/kubernetes-up-and-running/kuard/build/build.sh
+RUN build/build.sh
 
-CMD [ "/go/bin/kuard" ]
+# STAGE 2: desployment
+FROM alpine
+
+USER nobody:nobody
+
+COPY --from=build /go/bin/kurad /kurad
+
+CMD [ "/kuard" ]
 
