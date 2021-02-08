@@ -1,0 +1,101 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2021-01-28T12:43:42Z"
+  generateName: blue-7f45df4494-
+  labels:
+    app: blue
+    libi: lubu
+    pod-template-hash: 7f45df4494
+  name: blue-7f45df4494-qxl4s
+  namespace: default
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: blue-7f45df4494
+    uid: 1caf62a1-60c7-4063-845e-04b3b653f428
+  resourceVersion: "236419"
+  uid: aad6e0b4-c2ba-4540-870e-8231de9376ce
+spec:
+  containers:
+  - image: karthequian/helloworld:latest
+    imagePullPolicy: Always
+    name: blue
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: default-token-5sxtq
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: minikube
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: default-token-5sxtq
+    secret:
+      defaultMode: 420
+      secretName: default-token-5sxtq
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2021-01-28T12:43:42Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2021-02-08T12:17:09Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2021-02-08T12:17:09Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2021-01-28T12:43:42Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: docker://9e9dd059006e8b95598cc36f23aa8eb9fedcc1e85c62c446dfd7f12b234895d9
+    image: karthequian/helloworld:latest
+    imageID: docker-pullable://karthequian/helloworld@sha256:48413fdddeae11e4732896e49b6d82979847955666ed95e4d6e57b433920c9e1
+    lastState: {}
+    name: blue
+    ready: true
+    restartCount: 2
+    started: true
+    state:
+      running:
+        startedAt: "2021-02-08T12:16:52Z"
+  hostIP: 192.168.49.2
+  phase: Running
+  podIP: 172.17.0.6
+  podIPs:
+  - ip: 172.17.0.6
+  qosClass: BestEffort
+  startTime: "2021-01-28T12:43:42Z"

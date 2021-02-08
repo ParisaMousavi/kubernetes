@@ -10,3 +10,12 @@ kubectl config set-context helloworld-context --namespace=helloworld --users ...
 
 # using the newly created context
 kubectl config use-context helloworld-context
+
+kubectl get pods 
+
+# open the yaml file in editor and apply chnages after save
+kubectl edit pods blue-7f45df4494-qxl4s 
+
+kubectl apply -f myjob.yaml view-last-applied
+
+kubectl label pods blue-7f45df4494-qxl4s 
